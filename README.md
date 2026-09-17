@@ -58,5 +58,3 @@ lark-resume/
 └── agents/
     └── openai.yaml
 ```
-
-Skill 的执行规则使用英文维护，中文 README 用于介绍能力、使用流程和边界。
