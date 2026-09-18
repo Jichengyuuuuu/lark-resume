@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lark Resume"
+  short_description: "Create resumes from Lark chats and documents"
+  default_prompt: "Use $lark-resume to create an evidence-backed resume from my Lark group chats, direct messages, and documents. Before generating it, confirm the language, brief-first or direct flow, employment dates, and final resume format. If I choose a brief first, return a concise project table directly in chat."
