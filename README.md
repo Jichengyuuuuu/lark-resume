@@ -1,8 +1,35 @@
 # Lark Resume
 
-基于飞书工作上下文生成可信、可核验、面向目标岗位的专业简历。
+Turn messy Lark chats, docs, OKRs, and tasks into an evidence-backed resume skill.
+
+把飞书群聊、单聊、文档和项目记录，整理成可信、可核验、面向岗位的简历。
 
 该 Skill 通过 `lark-cli` 检索用户有权限访问的飞书群聊、单聊、文档、项目记录、任务、OKR 和会议材料，从真实工作证据中提炼个人贡献、交付结果与职业能力。生成过程中会区分个人贡献与团队成果，不编造职位、数据、教育经历或业务结果。
+
+Most resume tools start from what you remember. Lark Resume starts from what actually happened.
+
+## Demo
+
+```text
+User: 请根据我在飞书里的工作记录生成一份中文简历，先给我 brief，任职时间 2025-07 至今，最终要 HTML。
+
+Assistant: 在生成前确认：中文、先生成 Brief、任职时间 2025-07 至今、最终格式 HTML。接下来会只用项目、产品、人员和日期等工作关键词检索飞书上下文。
+```
+
+Brief 会直接在对话中返回，完整简历可以输出为 Markdown、DOCX、SVG 或 HTML。脱敏示例见 [`examples/`](examples/)。
+
+## Quick Start
+
+1. 将本仓库安装到支持 Skill 的 Agent 或助手环境中。
+2. 确认 `lark-cli` 已安装并在 `PATH` 中可用。
+3. 使用有权限访问目标飞书上下文的身份完成授权。
+4. 在对话中提出请求：
+
+```text
+请根据我在飞书里的工作记录生成一份简历。
+```
+
+Skill 会先确认语言、生成流程、任职时间和最终格式，然后再生成 Brief 或完整简历。
 
 ## 核心能力
 
@@ -18,7 +45,7 @@
 
 ## 使用方式
 
-将本仓库安装到支持 Skill 的 Agent 或助手环境中，并在对话中提出类似请求：
+提出类似请求：
 
 ```text
 请根据我在飞书里的工作记录生成一份简历。
@@ -55,6 +82,10 @@ Skill 会先确认：
 lark-resume/
 ├── SKILL.md
 ├── README.md
+├── LICENSE
+├── examples/
+│   ├── brief.zh-CN.md
+│   └── resume.zh-CN.md
 └── agents/
     └── openai.yaml
 ```
