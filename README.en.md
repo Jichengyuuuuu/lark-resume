@@ -1,5 +1,8 @@
 # Lark Resume Skill
 
+> Turn authorized Lark / Feishu work history into an evidence-backed resume.
+
+
 Generate evidence-backed resumes from Lark / Feishu chats, direct messages, docs, OKRs, tasks, and meeting notes.
 
 [中文说明](README.md) · [Mock brief](examples/brief.zh-CN.md) · [Mock resume](examples/resume.zh-CN.md)
@@ -66,6 +69,14 @@ The Skill will confirm:
 3. employment dates for each role;
 4. final resume format: Markdown, DOCX, SVG, or HTML.
 
+## 30-second demo
+
+```text
+Install and use lark-resume from https://github.com/Jichengyuuuuu/lark-resume,
+then generate a Chinese resume brief from my Lark work records.
+Employment period: 2025-07 to present. Target role: AI Agent product strategy. Final format: HTML.
+```
+
 ## Example request
 
 ```text
@@ -121,6 +132,10 @@ lark-resume/
 ## Keywords
 
 Lark resume skill, Feishu resume generator, AI resume builder, evidence-backed resume, AI Agent Skill, `lark-cli`, Lark chats, Feishu docs, OKR resume, DOCX resume, HTML resume.
+
+## Who should star this
+
+Star this repo if you are building Agent Skills, Lark / Feishu workflows, evidence-backed personal artifacts, or multi-format resume generation with clear privacy boundaries.
 
 ## License
 
