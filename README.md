@@ -49,6 +49,22 @@
 
 ![Lark Resume 使用示例](assets/usage-example.svg)
 
+## 输出示例
+
+README 使用截图展示输出效果，便于快速判断 Skill 生成的内容形态；Markdown 原文保留在 `examples/` 目录，便于复制、检索和二次修改。以下示例均为脱敏虚构内容。
+
+### Brief 示例
+
+![中文 Brief 示例](assets/mock-brief.zh-CN.svg)
+
+查看原文：[examples/brief.zh-CN.md](examples/brief.zh-CN.md)
+
+### 简历示例
+
+![中文简历示例](assets/mock-resume.zh-CN.svg)
+
+查看原文：[examples/resume.zh-CN.md](examples/resume.zh-CN.md)
+
 ## 使用方式
 
 将本仓库安装到支持 Skill 的 Agent 或助手环境中，并确认 `lark-cli` 已安装且在 `PATH` 中可用。
