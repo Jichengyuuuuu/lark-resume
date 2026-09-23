@@ -77,10 +77,19 @@ Final format: HTML.
 
 The brief is returned directly in chat. The final resume is generated only after the brief is confirmed or revised.
 
-See the anonymized mock outputs:
+See the anonymized mock outputs as screenshots and Markdown source:
 
-- [Chinese mock brief](examples/brief.zh-CN.md)
-- [Chinese mock resume](examples/resume.zh-CN.md)
+### Mock brief
+
+![Chinese mock brief](assets/mock-brief.zh-CN.svg)
+
+Source: [Chinese mock brief](examples/brief.zh-CN.md)
+
+### Mock resume
+
+![Chinese mock resume](assets/mock-resume.zh-CN.svg)
+
+Source: [Chinese mock resume](examples/resume.zh-CN.md)
 
 ## Evidence and privacy boundaries
 
