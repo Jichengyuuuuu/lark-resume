@@ -38,6 +38,13 @@ When it is time to write a resume, that evidence is hard to recall and easy to d
 4. Synthesize an evidence-backed brief with professional positioning and representative projects.
 5. Generate a tailored resume that emphasizes the target role while preserving factual evidence boundaries.
 
+
+## Usage example
+
+The screenshot below is a mock example. It shows a user installing the Skill, the agent confirming the language, generation flow, employment dates, and final format, and then returning a Chinese brief. The content is fictional and does not include real Lark data.
+
+![Lark Resume usage example](assets/usage-example.svg)
+
 ## Quick start
 
 Install this repository as a Skill in any compatible AI assistant or agent runtime, then make sure `lark-cli` is available in `PATH`.
