@@ -1,0 +1,31 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lark Resume workflow</title>
+  <desc id="desc">Lark and Feishu context flows through evidence retrieval, brief synthesis, and final resume generation.</desc>
+  <rect width="960" height="360" rx="28" fill="#F7F9FC"/>
+  <rect x="36" y="36" width="888" height="288" rx="24" fill="white" stroke="#D9E2F2"/>
+  <text x="72" y="82" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Lark Resume Skill</text>
+  <text x="72" y="112" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="15">From daily Lark work context to an evidence-backed resume</text>
+  <g transform="translate(72 150)">
+    <rect width="190" height="112" rx="18" fill="#EEF6FF" stroke="#A7D1FF"/>
+    <text x="24" y="34" fill="#0F3B63" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Lark context</text>
+    <text x="24" y="62" fill="#34556F" font-family="Inter, Arial, sans-serif" font-size="14">Chats · DM · Docs</text>
+    <text x="24" y="84" fill="#34556F" font-family="Inter, Arial, sans-serif" font-size="14">OKRs · Tasks · Meetings</text>
+  </g>
+  <path d="M286 206H346" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M346 206L334 197V215L346 206Z" fill="#9CA3AF"/>
+  <g transform="translate(370 150)">
+    <rect width="190" height="112" rx="18" fill="#F2F0FF" stroke="#C8BEFF"/>
+    <text x="24" y="34" fill="#35246B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Evidence brief</text>
+    <text x="24" y="62" fill="#51447A" font-family="Inter, Arial, sans-serif" font-size="14">Positioning</text>
+    <text x="24" y="84" fill="#51447A" font-family="Inter, Arial, sans-serif" font-size="14">Projects · Personal value</text>
+  </g>
+  <path d="M584 206H644" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M644 206L632 197V215L644 206Z" fill="#9CA3AF"/>
+  <g transform="translate(668 150)">
+    <rect width="190" height="112" rx="18" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="24" y="34" fill="#065F46" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Tailored resume</text>
+    <text x="24" y="62" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="14">Markdown · DOCX</text>
+    <text x="24" y="84" fill="#047857" font-family="Inter, Arial, sans-serif" font-size="14">SVG · HTML</text>
+  </g>
+  <text x="72" y="300" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="13">Uses lark-cli with the current user's permissions. Keeps unsupported claims out of the final resume.</text>
+</svg>
