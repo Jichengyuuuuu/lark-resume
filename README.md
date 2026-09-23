@@ -1,6 +1,7 @@
 # Lark Resume Skill
 
 把飞书群聊、单聊、文档、OKR、任务和会议记录，整理成可信、可核验、面向岗位的简历。
+<img width="917" height="1002" alt="image" src="https://github.com/user-attachments/assets/ad37eab0-4944-41d7-bd81-df786dfe91f9" />
 
 [English README](README.en.md) · [Brief 示例](examples/brief.zh-CN.md) · [简历示例](examples/resume.zh-CN.md)
 
