@@ -4,6 +4,11 @@
 
 [English README](README.en.md) · [Brief 示例](examples/brief.zh-CN.md) · [简历示例](examples/resume.zh-CN.md)
 
+> **Turn your real Lark / Feishu work history into an evidence-backed resume.**
+>
+> Lark Resume helps an Agent read authorized Lark context — chats, docs, OKRs, tasks and meetings — then extract your role, projects, personal contribution and job-positioning into a concise brief or a polished resume.
+
+
 ![Lark Resume 工作流](assets/flow.svg)
 
 大多数简历工具从“你记得什么”开始。**Lark Resume** 从“工作中真实发生过什么”开始。
@@ -42,6 +47,21 @@
 | 证据校验 | 对无法验证的职位、数据、教育或成果进行省略或待确认标记 | 避免把目标、计划和团队成果写成个人事实 |
 | 基础信息补全 | 在首版生成后询问联系方式、教育、证书、作品集等 | 用户需要更完整的正式简历 |
 
+
+
+## 30 秒试用
+
+```text
+先从 https://github.com/Jichengyuuuuu/lark-resume 安装 lark-resume Skill，
+然后基于我的飞书工作记录生成一份中文简历 brief。
+任职时间：2025-07 至今；目标岗位：AI Agent 策略产品；最终格式：HTML。
+```
+
+适合截图传播的最短 query：
+
+```text
+安装并使用 lark-resume，基于我的飞书工作记录生成简历。
+```
 
 ## 使用示例
 
@@ -172,6 +192,19 @@ lark-resume/
 Lark Resume is an AI Agent Skill that generates evidence-backed resumes from Lark / Feishu chats, direct messages, docs, OKRs, tasks, and meeting notes. It uses `lark-cli` with the current user's permissions, asks for required choices before generation, and avoids unsupported resume claims.
 
 See [README.en.md](README.en.md) for the English version.
+
+
+## 适合谁 Star
+
+如果你在做以下方向，这个仓库可以作为可复用样例：
+
+- Agent Skill 设计；
+- 飞书 / Lark 上下文检索；
+- 基于真实工作证据生成个人材料；
+- DOCX、HTML、SVG、Markdown 多格式输出；
+- 隐私边界和证据边界清晰的 AI 工作流。
+
+如果这个项目对你有启发，欢迎 ⭐ Star，后续会继续补充更多飞书上下文生成场景。
 
 ## License
 
